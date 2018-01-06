@@ -15,6 +15,12 @@
 	* [Polygon](#polygon)
 * [Strokes](#strokes)
 * [Fills](#fills)
+* [Basic transformations](#basic-transformations)
+	* [Translation](#translation)
+	* [Rotation](#rotation)
+	* [Scaling](#scaling)
+	* [Skewing](#skewing)
+* [Advanced transformations](#advanced-transformations)
 * [External resources](#external-resources)
 
 <!-- /code_chunk_output -->
@@ -143,9 +149,39 @@ TODO
 />
 ```
 
+## Basic transformations
+
+### Translation
+
+```html
+transform="translate(x,y)"
+```
+`x` and `y` are relative to the position of the element
+
+### Rotation
+
+```html
+transform="rotate(deg)"
+```
+
+### Scaling
+
+```html
+transform="scale(factor)"
+```
+
+### Skewing
+
+Go to [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Transformations#Skewing)
+
+## Advanced transformations
+
+Go to [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Transformations#Complex_transformations_with_matrix())
+
 
 ## External resources
 
 * [MDN | SVG tutorials](https://developer.mozilla.org/en-US/docs/tag/SVG:Tutorial)
 * [MDN | Paths](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths)
 * [MDN | Fills and Strokes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes)
+* [MDN | Basic Transformations](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Transformations)
